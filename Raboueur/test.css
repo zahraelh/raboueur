@@ -1,0 +1,49 @@
+/* #container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+  }
+   */
+.fa-sharp {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    cursor: pointer;
+    
+  }
+
+  #container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    background-color: lightgray;
+}
+#container .liheader{
+    list-style-type: none;
+    font-size: xxx-large;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container .liheader a{
+    text-decoration: none;
+    color: darkgreen;
+    
+}
+.un{
+    float: left;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+#nom{
+    color: darkcyan;
+    text-align: center;
+    font-size: xx-large;
+    position: absolute;
+}
